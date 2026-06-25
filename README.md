@@ -84,13 +84,13 @@ cp ~/.zshrc ~/.zshrc.backup
 ### Clone
 
 ```bash
-git clone https://github.com/USERNAME/baru-zsh.git
+git clone https://github.com/6aru/zsh-starter.git
 ```
 
 ### Install
 
 ```bash
-cp baru-zsh/.zshrc ~/.zshrc
+cp zsh-starter/.zshrc ~/.zshrc
 ```
 
 ### Set ZSH as Default Shell
