@@ -77,13 +77,59 @@ alias lt='eza --tree --level=2 --icons'
 alias grep='grep --color=auto'
 alias update='sudo apt update && sudo apt upgrade'
 alias mkdir='mkdir -pv'
-alias cat='bat'
+alias bat='batcat'
+alias cat='batcat'
 alias df='df -h'
 alias free='free -h'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
+#Better preview
+export FZF_DEFAULT_OPTS="
+--height=40%
+--layout=reverse
+--border
+--preview '
+if [ -d {} ]; then
+    eza --tree --level=2 --icons {}
+elif file --mime-type -b {} | grep -q zip; then
+    unzip -l {}
+elif file --mime-type -b {} | grep -q image; then
+    chafa --symbols=block --size=40x20 {}
+else
+    batcat --color=always --style=numbers --line-range=:500 {}
+fi
+'
+--preview-window=right:65%:wrap
+"
+
+# Better Ctrl+T
+export FZF_CTRL_T_OPTS="
+--preview '
+if [ -d {} ]; then
+    eza --tree --level=2 --icons {}
+elif file --mime-type -b {} | grep -q zip; then
+    unzip -Z1 {} | head -200
+elif file --mime-type -b {} | grep -q image; then
+    chafa --symbols=block --size=40x20 {}
+else
+    batcat --color=always --style=numbers --line-range=:500 {}
+fi
+'
+--preview-window=right:65%:wrap
+"
+
+# Better Ctrl+R
+export FZF_CTRL_R_OPTS="
+--border
+--preview-window=hidden
+"
+
+# Better Alt+C
+export FZF_ALT_C_OPTS="
+--preview 'eza --tree --level=2 --icons {}'
+"
 
 # Shell integrations
 eval "$(fzf --zsh)"
