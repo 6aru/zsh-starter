@@ -128,7 +128,8 @@ export FZF_CTRL_R_OPTS="
 
 # Better Alt+C
 export FZF_ALT_C_OPTS="
---preview 'eza --tree --level=2 --icons {}'
+--preview 'eza --tree --level=3 --icons {}'
+--preview-window=right:65%:wrap
 "
 
 # Shell integrations
