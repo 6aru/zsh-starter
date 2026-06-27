@@ -164,11 +164,4 @@ la
 ```
 
 ---
-
-## License
-
-MIT
-
----
-
 If this project helped you, please consider giving it a ⭐ on GitHub.
