@@ -23,7 +23,7 @@ Fast, clean, beginner friendly and suitable for Debian, Arch and other Linux dis
 
 ## Preview
 
-![Preview](preview.gif)
+![Preview](https://github.com/6aru/i3-Debian/blob/6c45edcae5ad051eb5be03f61320b1f714477857/Priview.mp4)
 
 ---
 
