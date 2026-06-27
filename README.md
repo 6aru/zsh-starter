@@ -22,7 +22,7 @@ Fast, clean, beginner friendly and suitable for Debian, Arch and other Linux dis
 ---
 
 ## Preview
-[Watch Demo](https://github.com/6aru/zsh-starter/blob/main/Preview.mp4)
+[Preview](https://github.com/user-attachments/assets/c206a328-099e-4eca-934f-b51e971f9a40)
 
 ---
 
