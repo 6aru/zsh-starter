@@ -23,7 +23,7 @@ Fast, clean, beginner friendly and suitable for Debian, Arch and other Linux dis
 
 ## Preview
 
-![Preview](Priview.mp4)
+![Preview](Preview.mp4)
 
 ---
 
