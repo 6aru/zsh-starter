@@ -140,8 +140,8 @@ Log out and back in.
 Jump instantly:
 
 ```bash
-z Downloads
-z Projects
+cd Downloads
+cd down
 ```
 
 ### FZF
