@@ -1,11 +1,11 @@
-# Baru ZSH
+# ZSH-STARTER 
 
 ![GitHub stars](https://img.shields.io/github/stars/6aru/zsh-starter?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/6aru/zsh-starter?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/6aru/zsh-starter?style=for-the-badge)
 ![Zsh](https://img.shields.io/badge/ZSH-Stable-blue?style=for-the-badge)
 
-A modern ZSH configuration built around:
+A modern Beginner/Pro ZSH configuration built around:
 
 * Powerlevel10k
 * Zinit
