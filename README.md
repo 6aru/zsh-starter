@@ -157,8 +157,10 @@ CTRL + R
 Beautiful listings:
 
 ```bash
+ls
 ll
 lt
+la
 ```
 
 ---
