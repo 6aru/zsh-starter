@@ -78,12 +78,14 @@ alias grep='grep --color=auto'
 alias update='sudo apt update && sudo apt upgrade'
 alias mkdir='mkdir -pv'
 alias bat='batcat'
-alias cat='batcat'
 alias df='df -h'
 alias free='free -h'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+#BATCAT ColorScheme
+export BAT_THEME="gruvbox-dark"
 
 #Better preview
 export FZF_DEFAULT_OPTS="
@@ -131,6 +133,21 @@ export FZF_ALT_C_OPTS="
 --preview 'eza --tree --level=3 --icons {}'
 --preview-window=right:65%:wrap
 "
+
+#Batcat+FZF via cat function 
+cat() {
+    batcat --color=always --paging=never "$1" |
+    fzf \
+        --ansi \
+        --no-sort \
+        --layout=reverse \
+        --height=100% \
+        --border \
+        --prompt="Viewing > " \
+        --preview='' \
+        --disabled
+}
+
 
 # Shell integrations
 eval "$(fzf --zsh)"
