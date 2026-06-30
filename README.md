@@ -174,16 +174,54 @@ Ctrl + T
 Alt + C
 ```
 
-### Eza
+## 📂 Eza
 
-Beautiful listings:
+A modern replacement for `ls` with icons, Git integration, and a cleaner output.
+
+| Command | Action |
+|---------|--------|
+| `ls` | 📁 Beautiful directory listing |
+| `ll` | 📄 Detailed list with permissions, size, and date |
+| `la` | 👀 Show hidden files and directories |
+| `lt` | 🌳 Display the directory tree |
+> ✨ Powered by **eza** for faster, cleaner, and more informative file listings.
+
+## 📖 Better File Preview
+
+This configuration replaces the traditional `cat` with a beautiful, scrollable file viewer powered by **bat** and **fzf**.
+
+### Features
+
+- 🎨 Syntax highlighting
+- 📄 Line numbers
+- 🔍 Scrollable preview
+- 🌈 Gruvbox themed output
+- ⌨️ Press **Esc** to exit
+
+### Examples
+
+View any file:
 
 ```bash
-ls
-ll
-lt
-la
+cat ~/.zshrc
 ```
+Instead of dumping plain text into the terminal, files open in a clean interactive viewer.
+
+> 💡 **Tip:** Works great for configuration files, source code, logs, and Markdown documents.
+
+## 📦 Archive Preview
+
+Preview archive contents directly from **FZF** without extracting them.
+
+### Supported Formats
+- 📦 ZIP
+- 📦 7z
+- 📦 TAR
+- 📦 TAR.GZ
+- 📦 TGZ
+- 📦 TAR.XZ
+Images inside archives are displayed using **Chafa** directly in the terminal.
+> ✨ Browse archive contents instantly with **Ctrl + T** or **FZF**.
 
 ---
 If this project helped you, please consider giving it a ⭐ on GitHub.
