@@ -135,14 +135,17 @@ Log out and back in.
 
 ## Tools
 
-### Zoxide
+## ⚡ Zoxide
 
-Jump instantly:
+Navigate your filesystem instantly without typing long paths.
 
-```bash
-cd Downloads
-cd down
-```
+| Command | Action |
+|---------|--------|
+| `cd Downloads` | 📁 Jump to the Downloads directory |
+| `cd down` | ⚡ Jump using a partial directory name |
+| `cd proj` | 🚀 Jump to your Projects directory (or any matching folder) |
+
+> 💡 Zoxide ranks directories based on frequency and recency, making navigation faster over time.
 
 ## 🔍 FZF Keybindings
 
