@@ -48,7 +48,7 @@ Fast, clean, beginner friendly and suitable for Debian, Arch and other Linux dis
 ```bash
 sudo apt install -y \
 zsh git curl wget \
-fzf zoxide eza bat \
+fzf zoxide eza chafa unzip p7zip-full tar bat \
 ripgrep fd-find
 ```
 
@@ -57,7 +57,7 @@ ripgrep fd-find
 ```bash
 sudo pacman -S \
 zsh git curl wget \
-fzf zoxide eza bat \
+fzf zoxide eza chafa unzip p7zip tar bat \
 ripgrep fd
 ```
 
@@ -66,7 +66,7 @@ ripgrep fd
 ```bash
 sudo dnf install \
 zsh git curl wget \
-fzf zoxide eza bat \
+fzf zoxide eza chafa unzip p7zip p7zip-plugins tar bat \
 ripgrep fd-find
 ```
 
