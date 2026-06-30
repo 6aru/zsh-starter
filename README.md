@@ -15,6 +15,7 @@ A modern Beginner/Pro ZSH configuration built around:
 * fzf-tab
 * zoxide
 * eza
+* chafa
 * bat
 
 Fast, clean, beginner friendly and suitable for Debian, Arch and other Linux distributions.
