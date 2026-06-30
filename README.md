@@ -144,12 +144,31 @@ cd Downloads
 cd down
 ```
 
-### FZF
+## 🔍 FZF Keybindings
 
-Search interactively:
+Quickly navigate your system with these built-in FZF shortcuts.
 
+| Shortcut | Description |
+|:---------:|------------|
+| <kbd>Ctrl</kbd> + <kbd>R</kbd> | 🔄 Search through your command history |
+| <kbd>Ctrl</kbd> + <kbd>T</kbd> | 📂 Fuzzy search and insert files |
+| <kbd>Alt</kbd> + <kbd>C</kbd> | 📁 Fuzzy search and jump to directories |
+
+### Examples
+
+#### 🔄 Search Command History
 ```bash
-CTRL + R
+Ctrl + R
+```
+
+#### 📂 Search Files
+```bash
+Ctrl + T
+```
+
+#### 📁 Jump to a Directory
+```bash
+Alt + C
 ```
 
 ### Eza
