@@ -1,9 +1,5 @@
 # zsh-starter
 
-![GitHub stars](https://img.shields.io/github/stars/6aru/zsh-starter?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/6aru/zsh-starter?style=for-the-badge)
-![Zsh](https://img.shields.io/badge/ZSH-Stable-blue?style=for-the-badge)
-
 A single `.zshrc` — Powerlevel10k, Zinit-managed plugins, fzf-powered previews, and a handful of aliases. Built and tested on Debian/Ubuntu.
 
 <details>
@@ -12,6 +8,9 @@ A single `.zshrc` — Powerlevel10k, Zinit-managed plugins, fzf-powered previews
 [Preview](https://github.com/user-attachments/assets/c206a328-099e-4eca-934f-b51e971f9a40)
 
 </details>
+
+![GitHub stars](https://img.shields.io/github/stars/6aru/zsh-starter?style=for-the-badge)
+![Zsh](https://img.shields.io/badge/ZSH-Stable-blue?style=for-the-badge)
   
 ## Install
 
