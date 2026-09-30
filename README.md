@@ -9,9 +9,9 @@ A single `.zshrc` — Powerlevel10k, Zinit-managed plugins, fzf-powered previews
 
 </details>
 
-![GitHub stars](https://img.shields.io/github/stars/6aru/zsh-starter?style=for-the-badge)
-![Zsh](https://img.shields.io/badge/ZSH-Stable-blue?style=for-the-badge)
-  
+![GitHub stars](https://img.shields.io/github/stars/6aru/zsh-starter?style=for-the-badge&labelColor=000000&color=ffffff)
+![Zsh](https://img.shields.io/badge/ZSH-Stable-black?style=for-the-badge&labelColor=000000&color=ffffff)  
+
 ## Install
 
 ```bash
