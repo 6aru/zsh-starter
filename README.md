@@ -23,7 +23,7 @@ chsh -s $(which zsh)
 ```
 Log out and back in. Zinit and every plugin install themselves on first launch.
 
-See the **[wiki](../../wiki)** for full setup details (including Arch/Fedora), the alias/plugin reference, and known limitations.
+See the **[wiki](../../wiki/Instructions)** for full setup details (including Arch/Fedora), the alias/plugin reference, and known limitations.
 
 ## What's in it
 
