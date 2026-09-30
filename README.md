@@ -2,7 +2,7 @@
 
 A single `.zshrc` — Powerlevel10k, Zinit-managed plugins, fzf-powered previews, and a handful of aliases. Built and tested on Debian/Ubuntu.
 
-![Preview](https://github.com/user-attachments/assets/115b27c0-ac72-4cf3-aa7f-8018cb0d4f6a)
+![Preview](https://github.com/user-attachments/assets/deb85310-b78f-475e-a958-4e9b71a6d21c)
 <details>
 <summary><b><code>Preview</code></b></summary>
 
